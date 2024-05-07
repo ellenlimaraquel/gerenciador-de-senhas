@@ -1,5 +1,23 @@
-body{
-  color:white;
-  background-color: rgb(205, 101, 231);
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sedan+SC&display=swap');
+:root{
+  --branco: white;
+  --cor-de-fundo: #820C76;
+  --fundo-senha:#980778;
+  --fundo-texto:#980778;
+  --borda:#FF00C7;
+}
+
+body{
+  color:var(--branco);
+  background-color: var(--cor-de-fundo);
+  font-family: "Sedan SC", serif;
+
+}
+.titulo-principal{
+  font-size: 32px;
+}
+
+.titulo-secundario{
+  font-size: 24px;
 }
